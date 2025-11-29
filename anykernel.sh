@@ -41,6 +41,7 @@ case $kernel_version in
     *) ksu_supported=false ;;
 esac
 
+ui_print " "
 ui_print "$(echo '5YaF5qC45p6E5bu66ICFOiDlsI8g5bCPdw==' | base64 -d)"
 ui_print "$(echo 'S2VybmVsX2J1aWxkZXIgOiB4aWFveGlhb3c=' | base64 -d)"
 ui_print " "
