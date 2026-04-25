@@ -1,11 +1,11 @@
 ### AnyKernel3 Ramdisk Mod Script
 ## osm0sis @ xda-developers
-# 禁止二改，小心黑砖
+# Không tự điều chỉnh nếu không muốn Hard Brick! Hãy chắc chắn rằng bạn biết mình đang làm gì!
 
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=KernelSU By KernelSU Developers
+kernel.string=KernelSU By KernelSU Developers || by p0s3id0n
 do.devicecheck=0
 do.modules=0
 do.systemless=0
